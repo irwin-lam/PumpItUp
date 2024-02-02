@@ -50,7 +50,7 @@ Looking at the visualizations, we can see in the precision vs recall graphs that
 
 Therefore, I can recommend using a Logistic Regression Model with Tuned Hyperparameters (C = 0.5, tol = 0.001, max_iters = 750, solver = lbfgs).  
 
-Next steps, I would recommend making this dataset into a binary classification with functional being 1 and ('non-functional' and 'functional needs repair') 0s. This will help the model avoid inaccurries it has with predicting the 'functional needs repair' class. Another recommendation would be using more advanced predicative models such as Random Forest or Gradient Boosting.
+Next steps, I would recommend making this dataset into a binary classification with functional being 1 and ('non-functional' and 'functional needs repair') 0s. This will help the model avoid inaccuracies it has with predicting the 'functional needs repair' class. Another recommendation would be using more advanced predicative models such as Random Forest or Gradient Boosting.
 
 ### Link to the Presentation:
 [Google Slides](https://docs.google.com/presentation/d/1ahhkCKOq3yPqH6EHN15eDjpK3-O0AnnKUghERZ5cSBk/edit?usp=sharing)
